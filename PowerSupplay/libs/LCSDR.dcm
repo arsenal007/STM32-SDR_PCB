@@ -1,0 +1,438 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +13.8V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +2V85
+K POWER, PWR
+$ENDCMP
+#
+$CMP 1:4
+D Inductor
+$ENDCMP
+#
+$CMP 1_9
+D Inductor
+$ENDCMP
+#
+$CMP 2N7002
+D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET Logic Level
+F http://www.fairchildsemi.com/ds/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP 4027
+D Dual JK FlipFlop, set & reset
+K CMOS JK JKFF
+$ENDCMP
+#
+$CMP 4040
+D Binary Counter 12 stages (Asynchronous)
+K CMOS CNT CNT12
+F cmos4000/MC14040.pdf
+$ENDCMP
+#
+$CMP 4046
+D Phase Comp & VCO
+K CMOS PLL
+$ENDCMP
+#
+$CMP 4049
+D Hex Buffer Inverter
+K CMOS BUFFER
+$ENDCMP
+#
+$CMP 4050
+D Hex Buffer
+K CMOS BUFFER
+$ENDCMP
+#
+$CMP 4051
+D Analog Multiplexer 8 to 1 lins
+K CMOS MUX MUX8
+$ENDCMP
+#
+$CMP 4052
+D Dual Analog Multiplexer 4 to 1 line
+K CMOS MUX MUX4
+$ENDCMP
+#
+$CMP 4053
+D Triple analog Multiplexer 2 to 1 line
+K CMOS MUX MUX2
+$ENDCMP
+#
+$CMP 4066
+D Quad Ananlog Switches
+K CMOS SWITCH
+$ENDCMP
+#
+$CMP 4069
+D Hex inverter
+K CMOD NOT
+$ENDCMP
+#
+$CMP 4070
+D Quad Xor 2 inputs
+K CMOS XOR2
+$ENDCMP
+#
+$CMP 4071
+D Quad Or 2 inputs
+K CMOS OR2
+$ENDCMP
+#
+$CMP 4072
+D Dual 4 input OR gate
+K CMOS OR4
+$ENDCMP
+#
+$CMP 4073
+D Triple And 3 inputs
+K CMOS And3
+$ENDCMP
+#
+$CMP 4077
+D Quad Xnor 2 inputs
+K CMOS XOR XNOR XNOR2
+$ENDCMP
+#
+$CMP 4081
+D Quad And 2 inputs
+K CMOS And2
+$ENDCMP
+#
+$CMP 4510
+D 4 bits programmable counter
+K CMOS CNT CNT4
+$ENDCMP
+#
+$CMP 4518
+D Dual BCD Up-Counter
+K CMOS
+$ENDCMP
+#
+$CMP 4520
+D Dual Binary Up-Counter
+K CMOS
+$ENDCMP
+#
+$CMP 4528
+D Monostable
+K CMOS
+$ENDCMP
+#
+$CMP 4538
+D Monostable
+K CMOS
+$ENDCMP
+#
+$CMP 74HC4053
+D Triple analog Multiplexer 2 to 1 line
+K CMOS MUX MUX2
+$ENDCMP
+#
+$CMP 74LCX574
+D 8 bits Register, 3 state Out
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP BARREL_JACK
+D DC Barrel Jack
+K DC power barrel jack connector
+$ENDCMP
+#
+$CMP BC849
+D 30V Vce, 0.1A Ic, Low noise, NPN, SOT-23
+K NPN Low Noise Small Signal Transistor
+F http://www.fairchildsemi.com/ds/BC/BC850.pdf
+$ENDCMP
+#
+$CMP BC850
+D 45V Vce, 0.1A Ic, Low noise, NPN, SOT-23
+K NPN Low Noise Small Signal Transistor
+F http://www.fairchildsemi.com/ds/BC/BC850.pdf
+$ENDCMP
+#
+$CMP BFG135
+D Transistor NPN, collector connected to mounting plane (general)
+K npn transistor
+$ENDCMP
+#
+$CMP CD4093
+D Quad Nand 2 inputs
+K CMOS Nand2
+$ENDCMP
+#
+$CMP CP1_Small
+D Polarised capacitor
+$ENDCMP
+#
+$CMP FT232RL
+D Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP ICS501
+D Dual Bidirectional I2CBus and SMBus Voltage-Level Translator
+$ENDCMP
+#
+$CMP JACK_TRS_3pins
+D audio jack TRS 6 pins
+K audio jack connector TRS
+$ENDCMP
+#
+$CMP L78M09
+D Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LD1117S12CTR
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, SOT223
+K REGULATOR LDO 1.2V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S12TR
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, SOT223
+K REGULATOR LDO 1.2V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S18CTR
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.8V, SOT223
+K REGULATOR LDO 1.8V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S18TR
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.8V, SOT223
+K REGULATOR LDO 1.8V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S25CTR
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 2.5V, SOT223
+K REGULATOR LDO 2.5V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S25TR
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 2.5V, SOT223
+K REGULATOR LDO 2.5V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S33CTR
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
+K REGULATOR LDO 3.3V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S33TR
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
+K REGULATOR LDO 3.3V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S50CTR
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT223
+K REGULATOR LDO 5.0V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S50TR
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT223
+K REGULATOR LDO 5.0V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD33
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
+K REGULATOR LDO 3.3V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LM324
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324AN
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324N
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM7806ACT
+D Positive 1A 35V Linear Regulator, Fixed Output 6V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7806CT
+D Positive 1A 35V Linear Regulator, Fixed Output 6V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7808ACT
+D Positive 1A 35V Linear Regulator, Fixed Output 8V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7808CT
+D Positive 1A 35V Linear Regulator, Fixed Output 8V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7809ACT
+D Positive 1A 35V Linear Regulator, Fixed Output 9V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7809CT
+D Positive 1A 35V Linear Regulator, Fixed Output 9V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7810ACT
+D Positive 1A 35V Linear Regulator, Fixed Output 10V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7810CT
+D Positive 1A 35V Linear Regulator, Fixed Output 10V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7812ACT
+D Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7812CT
+D Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7815ACT
+D Positive 1A 35V Linear Regulator, Fixed Output 15V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7815CT
+D Positive 1A 35V Linear Regulator, Fixed Output 15V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7818ACT
+D Positive 1A 35V Linear Regulator, Fixed Output 18V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7818CT
+D Positive 1A 35V Linear Regulator, Fixed Output 18V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7824ACT
+D Positive 1A 35V Linear Regulator, Fixed Output 24V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7824CT
+D Positive 1A 35V Linear Regulator, Fixed Output 24V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP M74LCX574
+D 8 bits Register, 3 state Out
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP MC33179DR
+D Triple analog Multiplexer 2 to 1 line
+K CMOS MUX MUX2
+$ENDCMP
+#
+$CMP MC33179DR2G
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP MCP6004
+D Microchip quad general purpose rail to rail op-amp, 1MHz GBWP
+K quad op amp operational amplifier 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP NE5532
+D Dual Op amp (low power)
+K ampliop
+F onsemi/mc33178.pdf
+$ENDCMP
+#
+$CMP NL17SV00
+D Quad nand2
+K TTL nand2
+$ENDCMP
+#
+$CMP PCA9306
+D Dual Bidirectional I2CBus and SMBus Voltage-Level Translator
+$ENDCMP
+#
+$CMP PCF8574
+D 8 Bit Port/Expander to I2C Bus, DIP/SOIC-16
+K I2C Expander
+F http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf
+$ENDCMP
+#
+$CMP PCF8574A
+D 8 Bit Port/Expander to I2C Bus, DIP/SOIC-16
+K I2C Expander
+F http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf
+$ENDCMP
+#
+$CMP PE4259ds
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
+K REGULATOR LDO 3.3V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP TL074
+D Quad Op amp. Mos
+K AmpliOp Mos
+$ENDCMP
+#
+$CMP TLC274
+D Quad Op amp. Mos
+K AmpliOp Mos
+$ENDCMP
+#
+#End Doc Library

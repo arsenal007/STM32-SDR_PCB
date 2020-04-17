@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name LCSDR)(type KiCad)(uri "/home/arsenal/usr/HAM/low_cost_SDR 1/TRX/S1.09/libs/LCSDR.pretty/")(options "")(descr ""))
+)

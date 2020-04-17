@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Nokia_5110-3310_LCD)(type KiCad)(uri "$(KIPRJMOD)/libs/Nokia_5110-3310_LCD.pretty")(options "")(descr ""))
+  (lib (name UI)(type KiCad)(uri "$(KIPRJMOD)/libs/UI.pretty")(options "")(descr ""))
+)
