@@ -241,7 +241,7 @@ Text GLabel 10000 1750 2    60   Input ~ 0
 ENCODER_B
 Text GLabel 10000 1600 2    60   Input ~ 0
 ENCODER_A
-Text GLabel 4350 7150 0    60   Input ~ 0
+Text GLabel 1100 4850 0    60   Input ~ 0
 KEY_A
 Text GLabel 2050 7150 0    60   Input ~ 0
 KEY_B
@@ -249,8 +249,8 @@ Text GLabel 2050 7300 0    60   Input ~ 0
 KEY_C
 Text GLabel 2050 7450 0    60   Input ~ 0
 KEY_D
-Text GLabel 4350 7350 0    60   Input ~ 0
-PTT_IN
+Text GLabel 3950 6300 2    60   Input ~ 0
+MCU_VOLTAGE_33V
 Text GLabel 1700 4100 0    60   Input ~ 0
 ADC
 Text GLabel 1350 5800 0    60   Input ~ 0
@@ -395,7 +395,7 @@ Text GLabel 10000 950  2    60   Output ~ 0
 LINE_OUT_LEFT_MCU
 Text GLabel 10000 1100 2    60   Output ~ 0
 LINE_OUT_RIGHT_MCU
-Text GLabel 4700 6700 0    60   Input ~ 0
+Text GLabel 1150 5200 0    60   Input ~ 0
 KEY_CW
 Wire Wire Line
 	2450 4050 3650 4050
@@ -742,4 +742,97 @@ F 3 "" H 1450 1300 50  0001 C CNN
 	1    1450 1400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Conn_02x05_Odd_Even J?
+U 1 1 5EAA5CD3
+P 4300 6800
+F 0 "J?" H 4350 7100 50  0000 C CNN
+F 1 "IDC10 Serial Wire" H 4350 6500 50  0000 C CNN
+F 2 "UI:USBBLASTER" H 4300 6800 50  0001 C CNN
+F 3 "" H 4300 6800 50  0001 C CNN
+	1    4300 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Pack04 RN?
+U 1 1 5EAA5CDA
+P 5500 6800
+F 0 "RN?" V 5200 6800 50  0000 C CNN
+F 1 "47" V 5700 6800 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x0603" V 5775 6800 50  0001 C CNN
+F 3 "" H 5500 6800 50  0001 C CNN
+	1    5500 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 6600 5300 6600
+Wire Wire Line
+	4600 6700 5300 6700
+Wire Wire Line
+	4600 6800 5300 6800
+Wire Wire Line
+	4600 7000 4900 7000
+Wire Wire Line
+	4900 7000 4900 6900
+Wire Wire Line
+	4900 6900 5300 6900
+Text GLabel 6150 6450 2    60   BiDi ~ 0
+SWDIO
+Text GLabel 6150 6650 2    60   BiDi ~ 0
+SWCLK
+Text GLabel 6150 6850 2    60   BiDi ~ 0
+SWO
+Text GLabel 6150 7050 2    60   Output ~ 0
+MCU_RESET
+Wire Wire Line
+	5700 6600 5800 6600
+Wire Wire Line
+	5800 6600 5800 6450
+Wire Wire Line
+	5800 6450 6150 6450
+Wire Wire Line
+	5700 6700 5900 6700
+Wire Wire Line
+	5900 6700 5900 6650
+Wire Wire Line
+	5900 6650 6150 6650
+Wire Wire Line
+	5700 6800 5900 6800
+Wire Wire Line
+	5900 6800 5900 6850
+Wire Wire Line
+	5900 6850 6150 6850
+Wire Wire Line
+	5700 6900 5800 6900
+Wire Wire Line
+	5800 6900 5800 7050
+Wire Wire Line
+	5800 7050 6150 7050
+$Comp
+L GND #PWR?
+U 1 1 5EAA5CF7
+P 3850 7050
+F 0 "#PWR?" H 3850 6800 50  0001 C CNN
+F 1 "GND" H 3850 6900 50  0001 C CNN
+F 2 "" H 3850 7050 50  0001 C CNN
+F 3 "" H 3850 7050 50  0001 C CNN
+	1    3850 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 6700 3850 7050
+Wire Wire Line
+	3850 7000 4100 7000
+Wire Wire Line
+	3850 6700 4100 6700
+Connection ~ 3850 7000
+Wire Wire Line
+	4100 6800 3850 6800
+Connection ~ 3850 6800
+Wire Wire Line
+	3850 6300 3850 6600
+Wire Wire Line
+	3850 6600 4100 6600
+Wire Wire Line
+	3950 6300 3850 6300
 $EndSCHEMATC
