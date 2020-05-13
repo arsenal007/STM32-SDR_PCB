@@ -175,14 +175,8 @@ F 3 "" H 7800 900 50  0001 C CNN
 	1    7800 900 
 	1    0    0    -1  
 $EndComp
-Text GLabel 10700 2100 2    60   Output ~ 0
-UART_RX
 Text GLabel 10000 3350 2    60   Input ~ 0
 I2S_CLKIN_TEST_MCU
-Text GLabel 10000 1750 2    60   Input ~ 0
-ENCODER_B
-Text GLabel 10000 1600 2    60   Input ~ 0
-ENCODER_A
 Text GLabel 3950 6800 2    60   Input ~ 0
 MCU_VOLTAGE_33V
 Text GLabel 1700 4100 0    60   Input ~ 0
@@ -191,16 +185,12 @@ Text GLabel 2550 1850 0    60   BiDi ~ 0
 MCU_RESET
 Text GLabel 1700 3750 0    60   Output ~ 0
 IO4
-Text GLabel 10000 600  2    60   Output ~ 0
-IO6
 Text GLabel 10000 750  2    60   Output ~ 0
 IO7
 Text GLabel 10000 4700 2    60   BiDi ~ 0
 I2C_SDA_MCU
 Text GLabel 1700 3900 0    60   Output ~ 0
 IO5
-Text GLabel 10000 1450 2    60   Output ~ 0
-TX1
 Text GLabel 2050 6400 0    60   Output ~ 0
 TX2
 $Comp
@@ -302,10 +292,8 @@ F 3 "" H 5950 3450 50  0001 C CNN
 	1    5950 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1700 3600 0    60   Output ~ 0
+Text GLabel 10000 600  2    60   Output ~ 0
 BAND
-Text GLabel 10000 1300 2    60   Output ~ 0
-LINE_OUT_RIGHT_MCU
 Wire Wire Line
 	2450 4050 3650 4050
 Wire Wire Line
@@ -437,14 +425,6 @@ Wire Wire Line
 Wire Wire Line
 	8250 3350 10000 3350
 Wire Wire Line
-	8850 2350 8250 2350
-Wire Wire Line
-	8250 2450 8950 2450
-Wire Wire Line
-	9050 2550 8250 2550
-Wire Wire Line
-	9350 2850 8250 2850
-Wire Wire Line
 	9450 2950 8250 2950
 Wire Wire Line
 	9550 2650 9550 3050
@@ -458,22 +438,6 @@ Wire Wire Line
 	10000 2500 9450 2500
 Wire Wire Line
 	9450 2500 9450 2950
-Wire Wire Line
-	10000 2300 9350 2300
-Wire Wire Line
-	9350 2300 9350 2850
-Wire Wire Line
-	10000 1750 9050 1750
-Wire Wire Line
-	9050 1750 9050 2550
-Wire Wire Line
-	10000 1600 8950 1600
-Wire Wire Line
-	8950 1600 8950 2450
-Wire Wire Line
-	10000 1450 8850 1450
-Wire Wire Line
-	8850 1450 8850 2350
 Wire Wire Line
 	8450 1950 8450 750 
 Wire Wire Line
@@ -539,12 +503,6 @@ Wire Wire Line
 	2550 2650 2450 2650
 Wire Wire Line
 	1700 3450 3650 3450
-Wire Wire Line
-	1700 3600 1900 3600
-Wire Wire Line
-	1900 3600 1900 3550
-Wire Wire Line
-	1900 3550 3650 3550
 Wire Wire Line
 	1700 3750 2000 3750
 Wire Wire Line
@@ -662,23 +620,23 @@ LED0
 $Comp
 L LED D4
 U 1 1 5EAAAB57
-P 4800 5650
-F 0 "D4" H 4800 5750 50  0000 C CNN
-F 1 "LED" H 4800 5550 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm_FlatTop" H 4800 5650 50  0001 C CNN
-F 3 "" H 4800 5650 50  0001 C CNN
-	1    4800 5650
+P 4900 5800
+F 0 "D4" H 4900 5900 50  0000 C CNN
+F 1 "LED" H 4900 5700 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm_FlatTop" H 4900 5800 50  0001 C CNN
+F 3 "" H 4900 5800 50  0001 C CNN
+	1    4900 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D5
 U 1 1 5EAAABEF
-P 4800 5950
-F 0 "D5" H 4800 6050 50  0000 C CNN
-F 1 "LED" H 4800 5850 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm_FlatTop" H 4800 5950 50  0001 C CNN
-F 3 "" H 4800 5950 50  0001 C CNN
-	1    4800 5950
+P 4900 6150
+F 0 "D5" H 4900 6250 50  0000 C CNN
+F 1 "LED" H 4900 6050 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm_FlatTop" H 4900 6150 50  0001 C CNN
+F 3 "" H 4900 6150 50  0001 C CNN
+	1    4900 6150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -706,26 +664,20 @@ $EndComp
 $Comp
 L GND #PWR054
 U 1 1 5EAAAE5C
-P 4550 5950
-F 0 "#PWR054" H 4550 5700 50  0001 C CNN
-F 1 "GND" H 4550 5800 50  0001 C CNN
-F 2 "" H 4550 5950 50  0001 C CNN
-F 3 "" H 4550 5950 50  0001 C CNN
-	1    4550 5950
+P 4600 6150
+F 0 "#PWR054" H 4600 5900 50  0001 C CNN
+F 1 "GND" H 4600 6000 50  0001 C CNN
+F 2 "" H 4600 6150 50  0001 C CNN
+F 3 "" H 4600 6150 50  0001 C CNN
+	1    4600 6150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4650 5650 4550 5650
+	4750 5800 4600 5800
 Wire Wire Line
-	4650 5950 4550 5950
-Wire Wire Line
-	4950 5950 5050 5950
-Wire Wire Line
-	5050 5950 5050 6150
+	4750 6150 4600 6150
 Wire Wire Line
 	5050 6150 5400 6150
-Wire Wire Line
-	5150 5650 4950 5650
 Wire Wire Line
 	5600 6150 6000 6150
 Text GLabel 10000 5050 2    60   Output ~ 0
@@ -744,12 +696,6 @@ Text GLabel 2050 6850 0    60   Output ~ 0
 S2_RX_TX
 Text GLabel 2050 7000 0    60   Output ~ 0
 S1_RX_TX
-Wire Wire Line
-	8250 2250 8750 2250
-Wire Wire Line
-	8750 2250 8750 1300
-Wire Wire Line
-	8750 1300 10000 1300
 Text GLabel 2050 7150 0    60   Output ~ 0
 LED3
 Text GLabel 6000 6150 2    60   Input ~ 0
@@ -799,9 +745,7 @@ $EndComp
 Wire Wire Line
 	5600 5800 6000 5800
 Wire Wire Line
-	5400 5800 5150 5800
-Wire Wire Line
-	5150 5800 5150 5650
+	5050 5800 5400 5800
 $Comp
 L R_Small R19
 U 1 1 5EBB8B86
@@ -872,12 +816,12 @@ Wire Wire Line
 $Comp
 L GND #PWR057
 U 1 1 5EBBA1A1
-P 4550 5650
-F 0 "#PWR057" H 4550 5400 50  0001 C CNN
-F 1 "GND" H 4550 5500 50  0001 C CNN
-F 2 "" H 4550 5650 50  0001 C CNN
-F 3 "" H 4550 5650 50  0001 C CNN
-	1    4550 5650
+P 4600 5800
+F 0 "#PWR057" H 4600 5550 50  0001 C CNN
+F 1 "GND" H 4600 5650 50  0001 C CNN
+F 2 "" H 4600 5800 50  0001 C CNN
+F 3 "" H 4600 5800 50  0001 C CNN
+	1    4600 5800
 	0    1    1    0   
 $EndComp
 Wire Wire Line

@@ -443,18 +443,6 @@ Wire Wire Line
 	7200 5000 7200 5100
 Wire Wire Line
 	7200 5100 7050 5100
-Text GLabel 6650 4300 0    60   Input ~ 0
-IO4
-Wire Wire Line
-	6650 4300 7400 4300
-Wire Wire Line
-	7400 4400 7100 4400
-Text GLabel 7100 4400 0    60   Input ~ 0
-IO5
-Text GLabel 6650 4500 0    60   Input ~ 0
-IO6
-Wire Wire Line
-	6650 4500 7400 4500
 Text GLabel 7100 4600 0    60   Input ~ 0
 IO7
 Wire Wire Line
@@ -467,4 +455,14 @@ Wire Wire Line
 	7100 4800 7400 4800
 Text GLabel 6650 4700 0    60   Input ~ 0
 IO8
+Wire Wire Line
+	7400 4300 7350 4300
+Connection ~ 7350 4300
+Wire Wire Line
+	7400 4500 7350 4500
+Connection ~ 7350 4500
+Text GLabel 7100 4400 0    60   BiDi ~ 0
+BPF
+Wire Wire Line
+	7400 4400 7100 4400
 $EndSCHEMATC
