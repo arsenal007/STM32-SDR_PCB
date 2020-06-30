@@ -403,6 +403,12 @@ D Quad nand2
 K TTL nand2
 $ENDCMP
 #
+$CMP NV7050SA
+D Crystal Clock Oscillator, SMD package 7.5x5.0mm²
+K Crystal Clock Oscillator
+F http://www.iqdfrequencyproducts.com/products/details/iqxo-70-11-30.pdf
+$ENDCMP
+#
 $CMP PCA9306
 D Dual Bidirectional I2CBus and SMBus Voltage-Level Translator
 $ENDCMP

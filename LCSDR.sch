@@ -28,16 +28,17 @@ LIBS:Display
 LIBS:switches
 LIBS:cmos4000
 LIBS:conn
+LIBS:Oscillators
 LIBS:LCSDR-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title "Hermes-Lite"
-Date "2016-02-18"
-Rev "2.0-pre1"
-Comp "SofterHardware"
+Title "Low Cost SDR"
+Date "2020-06-07"
+Rev "1.0 MCU"
+Comp ""
 Comment1 "Vasyl Kuzmenko"
 Comment2 ""
 Comment3 ""

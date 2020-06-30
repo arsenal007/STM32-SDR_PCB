@@ -1,4 +1,4 @@
-update=16.04.2020 8:16:07
+update=21.06.2020 15:31:50
 version=1
 last_client=kicad
 [pcbnew]
@@ -70,3 +70,4 @@ LibName27=switches
 LibName28=cmos4000
 LibName29=Relay
 LibName30=conn
+LibName31=Oscillators
